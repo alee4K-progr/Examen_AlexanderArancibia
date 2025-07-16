@@ -1,5 +1,7 @@
 from funciones import *
 
+
+#MENU PRINCIPAL
 while True:
     print("***MENU PRINCIPAL***")
     print("1. Stock marca.")
