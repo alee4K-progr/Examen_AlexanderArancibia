@@ -26,7 +26,7 @@ def stock_marca():
             for clave, valor in stock.items():
                 if clave_prod == clave:
                     encontrada = True
-                    print(f"El stock es: {valor[1]}")
+                    print(f"El stock es: {valor[1]}") #Se ejecuta las veces que encuentra la marca
 
     if not encontrada:
         print("Marca no encontrada")
